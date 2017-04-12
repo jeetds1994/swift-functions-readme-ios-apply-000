@@ -16,24 +16,31 @@ func sayHelloToGarfield() {
 }
 
 func sayHelloToBuster() {
+    //When this funtion is called it orints the same message
     print("Hello, Buster, why do you sleep so much?")
 }
 
 func sayHelloToScratchy() {
+    //When this funtion is called it orints the same message
+
     print("Hello, Scratchy, why do you sleep so much?")
 }
 
 
 func sayHelloToCat(catName: String) {
+    //Takes an input of type String and that variable is added to a print statement
     print("Hello, \(catName), why do you sleep so much?")
 }
 
 
 func sayHello(name: String) {
+    //Takes an input of type String and that variable is added to a print statement
+
     print("Hello \(name), why do you sleep so much?")
 }
 
 sayHello(name: "Mittens")
+
 // Prints "Hello Mittens, why do you sleep so much?"
 
 sayHello(name: "Socks")
@@ -42,3 +49,10 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
+
+func day(dayoftheWeek: String) -> String{
+    return "Today is \(dayoftheWeek))!"
+}
+
+day(dayoftheWeek: "Monday")
